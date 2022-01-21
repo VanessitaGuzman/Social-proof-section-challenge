@@ -1,0 +1,164 @@
+
+
+body {
+padding-top: 100px;
+  width: 1400px;
+  font-family: Spartan;
+  color: hsl(300, 43%, 22%);
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+background-position: top left, bottom right;
+background-repeat: no-repeat, no-repeat;
+background-color: white;
+height: 1600px;
+margin:auto;
+}
+
+h1 {
+
+  font-weight: bold;
+  width: 400px;
+}
+
+h3 {
+  color: white;
+  margin: 25px;
+  font-size: 16px;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  margin: auto;
+  padding: 50px 0 50px 0;
+}
+
+.colton {
+  background-color: hsl(300, 43%, 22%);
+  margin: 10px;
+  width: 400px;
+  height: 225px;
+  border-radius: 5px;
+}
+
+.irene {
+  background-color: hsl(300, 43%, 22%);
+  margin: 30px 10px 10px 10px;
+  width: 400px;
+  height: 225px;
+  border-radius: 5px;
+}
+
+.anne {
+  background-color: hsl(300, 43%, 22%);
+  margin: 50px 10px 10px 10px;
+  width: 400px;
+  height: 225px;
+  border-radius: 5px;
+}
+
+h4 {
+  color: hsl(333, 80%, 67%);
+  margin-top: -20px;
+  font-size: 14px;
+}
+
+.fa-star {
+  color: gold;
+  padding: 3px;
+}
+
+.image {
+  border-radius: 180px;
+  float: left;
+  margin: 25px 20px 5px 15px;
+  width: 45px;
+  height: auto;
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.titlecase {
+  padding: 5px 0 55px 0;
+  color: hsl(303, 10%, 53%);
+  width: 450px;
+}
+
+.one {
+  width: 450px
+}
+
+.two {
+  margin-left: 30px;
+  width: 450px
+}
+
+.three {
+  margin-left: 50px;
+  width: 450px
+}
+
+.star {
+  padding-right: 15px;
+}
+
+.row-one {
+  width: 1000px;
+}
+
+@media only screen and (max-width: 1400px) {
+
+  body {
+    width: 600px;
+    margin: auto;
+  }
+
+  .rating {
+    margin: 15px auto 15px -15px;
+    width: 410px;
+
+  }
+
+  .titlecase {
+    margin: -15px auto -25px auto;
+    width: 400px;
+  }
+
+  .container {
+    margin: auto 15px;
+  }
+.col-lg-4 {
+  margin: auto auto 15px auto;
+}
+
+.col-lg-6 {
+  width: 100%;
+}
+    h1 {
+      margin: 15px auto 25px auto;
+
+    }
+
+    .row-one {
+      width: 400px;
+      margin: auto;
+    }
+}
